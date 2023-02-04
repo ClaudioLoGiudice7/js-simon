@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/rainbow-background.png");
+    background-size: cover;
+    position: relative;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, .8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.time p {
+    font-size: 40px;
+    color: #f8fa81;
+}
